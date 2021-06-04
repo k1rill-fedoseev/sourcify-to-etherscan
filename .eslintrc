@@ -1,4 +1,8 @@
 {
+  "rules": {
+    "no-constant-condition": "off",
+    "no-await-in-loop": "off"
+  },
   "extends": [
     "oclif",
     "oclif-typescript"

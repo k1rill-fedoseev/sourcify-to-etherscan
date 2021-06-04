@@ -28,28 +28,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`sourcify-to-etherscan hello [FILE]`](#sourcify-to-etherscan-hello-file)
 * [`sourcify-to-etherscan help [COMMAND]`](#sourcify-to-etherscan-help-command)
-
-## `sourcify-to-etherscan hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ sourcify-to-etherscan hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ sourcify-to-etherscan hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/k1rill-fedoseev/sourcify-to-etherscan/blob/v0.0.1/src/commands/hello.ts)_
+* [`sourcify-to-etherscan verify CONTRACT`](#sourcify-to-etherscan-verify-contract)
 
 ## `sourcify-to-etherscan help [COMMAND]`
 
@@ -67,4 +47,30 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2/src/commands/help.ts)_
+
+## `sourcify-to-etherscan verify CONTRACT`
+
+check contract verification status in Sourcify and Etherscan
+
+```
+USAGE
+  $ sourcify-to-etherscan verify CONTRACT
+
+OPTIONS
+  -a, --args=args                                                                        abi-encoded constructor
+                                                                                         arguments
+
+  -h, --help                                                                             show CLI help
+
+  -k, --apikey=apikey                                                                    etherscan api key
+
+  -n, --network=(mainnet|ropsten|rinkeby|goerli|kovan|bsc|bsc_testnet|1|3|4|5|42|56|97)  [default: mainnet] network name
+                                                                                         or chain id to use
+
+EXAMPLES
+  $ sourcify-to-etherscan verify --apikey <...> --network rinkeby 0x94263a20b1Eea751d6C3B207A7A0ba8fF8Db9E90
+  $ sourcify-to-etherscan verify -k <...> -n 4 -a <...> 0x94263a20b1Eea751d6C3B207A7A0ba8fF8Db9E90
+```
+
+_See code: [src/commands/verify.ts](https://github.com/k1rill-fedoseev/sourcify-to-etherscan/blob/v0.0.1/src/commands/verify.ts)_
 <!-- commandsstop -->
