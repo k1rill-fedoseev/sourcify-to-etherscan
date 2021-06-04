@@ -1,0 +1,11 @@
+FROM node:14
+
+WORKDIR /work
+
+COPY package.json yarn.lock ./
+
+RUN yarn
+
+COPY . .
+
+ENTRYPOINT ./bin/run

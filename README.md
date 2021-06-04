@@ -26,6 +26,13 @@ USAGE
 ...
 ```
 <!-- usagestop -->
+
+### Docker
+
+```bash
+$ docker run kirillfedoseev/sourcify-to-etherscan:latest COMMAND
+```
+
 # Commands
 <!-- commands -->
 * [`sourcify-to-etherscan help [COMMAND]`](#sourcify-to-etherscan-help-command)
