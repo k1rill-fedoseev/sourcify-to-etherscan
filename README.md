@@ -19,7 +19,7 @@ $ npm install -g sourcify-to-etherscan
 $ sourcify-to-etherscan COMMAND
 running command...
 $ sourcify-to-etherscan (-v|--version|version)
-sourcify-to-etherscan/0.0.1 darwin-x64 node-v10.22.1
+sourcify-to-etherscan/0.0.2 darwin-x64 node-v14.16.1
 $ sourcify-to-etherscan --help [COMMAND]
 USAGE
   $ sourcify-to-etherscan COMMAND
@@ -64,20 +64,24 @@ USAGE
   $ sourcify-to-etherscan verify CONTRACT
 
 OPTIONS
-  -a, --args=args                                                                        abi-encoded constructor
-                                                                                         arguments
+  -a, --args=args
+      abi-encoded constructor arguments
 
-  -h, --help                                                                             show CLI help
+  -h, --help
+      show CLI help
 
-  -k, --apikey=apikey                                                                    etherscan api key
+  -k, --apikey=apikey
+      etherscan api key
 
-  -n, --network=(mainnet|ropsten|rinkeby|goerli|kovan|bsc|bsc_testnet|1|3|4|5|42|56|97)  [default: mainnet] network name
-                                                                                         or chain id to use
+  -n, 
+  --network=(mainnet|ropsten|rinkeby|goerli|kovan|bsc|bsc_testnet|arbitrum|arbitrum_rinkbedy|avalanche|avalanche_fuji|1|
+  3|4|5|42|56|97|42161|421611|43114|43113)
+      [default: mainnet] network name or chain id to use
 
 EXAMPLES
   $ sourcify-to-etherscan verify --apikey <...> --network rinkeby 0x94263a20b1Eea751d6C3B207A7A0ba8fF8Db9E90
   $ sourcify-to-etherscan verify -k <...> -n 4 -a <...> 0x94263a20b1Eea751d6C3B207A7A0ba8fF8Db9E90
 ```
 
-_See code: [src/commands/verify.ts](https://github.com/k1rill-fedoseev/sourcify-to-etherscan/blob/v0.0.1/src/commands/verify.ts)_
+_See code: [src/commands/verify.ts](https://github.com/k1rill-fedoseev/sourcify-to-etherscan/blob/v0.0.2/src/commands/verify.ts)_
 <!-- commandsstop -->
