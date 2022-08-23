@@ -19,6 +19,7 @@ export const NETWORKS: Network[] = [
   {name: 'kovan', chainId: 42, etherscanApiURL: 'https://api-kovan.etherscan.io/api'},
   {name: 'bsc', chainId: 56, etherscanApiURL: 'https://api.bscscan.com/api'},
   {name: 'bsc_testnet', chainId: 97, etherscanApiURL: 'https://api-testnet.bscscan.com/api'},
+  {name: 'gnosis', chainId: 100, etherscanApiURL: 'https://api.gnosisscan.io/api'},
   {name: 'arbitrum', chainId: 42161, etherscanApiURL: 'https://api.arbiscan.io/api'},
   {name: 'arbitrum_rinkbedy', chainId: 421611, etherscanApiURL: 'https://api-testnet.arbiscan.io/api'},
   {name: 'avalanche', chainId: 43114, etherscanApiURL: 'https://snowtrace.io/apis'},

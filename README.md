@@ -74,8 +74,8 @@ OPTIONS
       etherscan api key
 
   -n, 
-  --network=(mainnet|ropsten|rinkeby|goerli|kovan|bsc|bsc_testnet|arbitrum|arbitrum_rinkbedy|avalanche|avalanche_fuji|1|
-  3|4|5|42|56|97|42161|421611|43114|43113)
+  --network=(mainnet|ropsten|rinkeby|goerli|kovan|bsc|bsc_testnet|gnosis|arbitrum|arbitrum_rinkbedy|avalanche|avalanche_fuji|1|
+  3|4|5|42|56|97|100|42161|421611|43114|43113)
       [default: mainnet] network name or chain id to use
 
 EXAMPLES
