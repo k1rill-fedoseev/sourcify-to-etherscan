@@ -1,7 +1,7 @@
 {
   "name": "sourcify-to-etherscan",
   "description": "CLI for importing Sourcify verified contract to Etherscan in the simplest and fastest way",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Kirill Fedoseev @k1rill-fedoseev",
   "bin": {
     "sourcify-to-etherscan": "./bin/run"

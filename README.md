@@ -19,7 +19,7 @@ $ npm install -g sourcify-to-etherscan
 $ sourcify-to-etherscan COMMAND
 running command...
 $ sourcify-to-etherscan (-v|--version|version)
-sourcify-to-etherscan/0.0.2 darwin-x64 node-v14.16.1
+sourcify-to-etherscan/0.0.3 darwin-arm64 node-v16.15.0
 $ sourcify-to-etherscan --help [COMMAND]
 USAGE
   $ sourcify-to-etherscan COMMAND
@@ -83,5 +83,5 @@ EXAMPLES
   $ sourcify-to-etherscan verify -k <...> -n 4 -a <...> 0x94263a20b1Eea751d6C3B207A7A0ba8fF8Db9E90
 ```
 
-_See code: [src/commands/verify.ts](https://github.com/k1rill-fedoseev/sourcify-to-etherscan/blob/v0.0.2/src/commands/verify.ts)_
+_See code: [src/commands/verify.ts](https://github.com/k1rill-fedoseev/sourcify-to-etherscan/blob/v0.0.3/src/commands/verify.ts)_
 <!-- commandsstop -->
