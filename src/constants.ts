@@ -24,6 +24,7 @@ export const NETWORKS: Network[] = [
   {name: 'arbitrum_rinkbedy', chainId: 421611, etherscanApiURL: 'https://api-testnet.arbiscan.io/api'},
   {name: 'avalanche', chainId: 43114, etherscanApiURL: 'https://snowtrace.io/apis'},
   {name: 'avalanche_fuji', chainId: 43113, etherscanApiURL: 'https://testnet.snowtrace.io/api'},
+  {name: 'sepolia', chainId: 11155111, etherscanApiURL: 'https://api-sepolia.etherscan.io/api'},
 ]
 
 export const SOURCIFY_API = 'https://sourcify.dev/server/'
